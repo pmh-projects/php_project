@@ -41,11 +41,14 @@
   </ul>
   <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                                <li class="nav-item">
+                                                                                    <li class="nav-item">
                                     <a class="nav-link" href="http://127.0.0.1:8000/login">Login</a>
                                 </li>
                                                         
-                                                                    </ul>
+                                                            <li class="nav-item">
+                                    <a class="nav-link" href="http://127.0.0.1:8000/register">Register</a>
+                                </li>
+                                                                        </ul>
 </nav>
     <div class="container">
         @yield('tresc')
