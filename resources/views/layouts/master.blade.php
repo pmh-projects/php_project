@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav">
     <li class="nav-item active">
-      <a class="nav-link" href="/main_page">Active</a>
+      <a class="nav-link" href="/main_page">Main</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="/find">Find</a>
@@ -41,14 +41,11 @@
   </ul>
   <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
-                                                                                    <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="http://127.0.0.1:8000/login">Login</a>
                                 </li>
                                                         
-                                                            <li class="nav-item">
-                                    <a class="nav-link" href="http://127.0.0.1:8000/register">Register</a>
-                                </li>
-                                                                        </ul>
+                                                                    </ul>
 </nav>
     <div class="container">
         @yield('tresc')

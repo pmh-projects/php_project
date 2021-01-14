@@ -1,4 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.master')
+
+
 @section('tresc')
 
 <div class="container">

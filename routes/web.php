@@ -17,25 +17,25 @@ Route::get('/', function () {
     return view('auth/login');
 });
 
-Route::get('/form', function () {
-    return view('form');
-});
+// Route::get('/form', function () {
+//     return view('form');
+// });
 
-Route::get('/delete', function () {
-    return view('delete');
-});
+// Route::get('/delete', function () {
+//     return view('delete');
+// });
 
-Route::get('/find', function () {
-    return view('find');
-});
+// Route::get('/find', function () {
+//     return view('find');
+// });
 
-Route::get('/about', function () {
-    return view('about');
-});
+// Route::get('/about', function () {
+//     return view('about');
+// });
 
-Route::get('/main_page', function () {
-    return view('main_page');
-});
+// Route::get('/main', function () {
+//     return view('main');
+// });
 
 Auth::routes();
 
@@ -44,5 +44,8 @@ Auth::routes();
 //Route::get('/form', 'App\Http\Controllers\FormController@index');
 
 Route::get('/home', 'App\Http\Controllers\HomeController@index');
-
+Route::get('/form', 'App\Http\Controllers\FormController@index');
+Route::get('/find', 'App\Http\Controllers\FindController@index');
+Route::get('/delete', 'App\Http\Controllers\DeleteController@index');
+Route::get('/about', 'App\Http\Controllers\AboutController@index');
 Route::get('/main_page', 'App\Http\Controllers\main_page@index');
